@@ -1,0 +1,15 @@
+# In both repos, create .gitignore with:
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Exports
+exports/llm-context/*.json
+exports/graph-db/*.cypher
+
+# Secrets (especially in operations/)
+*.env
+*.key
+secrets/
